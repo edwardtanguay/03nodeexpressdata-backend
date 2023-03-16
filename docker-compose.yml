@@ -1,9 +1,0 @@
-version: "3"
-services:
-  api:
-    container_name: api
-    restart: always
-    stdin_open: true
-    build: .
-    ports: 
-      - "5000:5000"
